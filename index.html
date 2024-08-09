@@ -1,7 +1,4 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<!DOCTYPE html><html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Greetings</title>
@@ -24,25 +21,26 @@
             flex-direction: column;
             max-width: 95%;
             margin: auto;
-            border: 1px solid #000000;
+            border: 2px solid #000000;
             border-radius: 5px;
-            box-shadow: 1px 1px .5px 0px #000000;
+            box-shadow: 0px 0px 0px 0px #000000;
 
         }
 
            
         .greet{
-            font-size: 3em;
+            font-size: 7em;
+            font-family: Impact
         }
 
         .date {
       
-            font-family: arial;
-            font-size: 2em;
+            font-family: helvetica;
+            font-size: 3em;
         }
 
         .clock {
-            font-family: arial;
+            font-family: helvetica;
             font-size: 2em;
         }
 
@@ -62,7 +60,7 @@
 
 
     </style>
-</head>
+<script type="text/javascript" src="https://tiiny.host/ad-script.js"></script><script defer="" data-domain="blue-farah-3.tiiny.site" src="https://analytics.tiiny.site/js/plausible.js"></script></head>
 <body>
 
 
@@ -97,11 +95,11 @@ function dispalyGreetings(today){
         hrs = today.getHours();
         name=""
         if (hrs < 12)
-            greet = 'Good Morning  '+name;
+            greet = 'GOOD MORNING  '+name;
         else if (hrs >= 12 && hrs <= 17)
-            greet = 'Good Afternoon '+name;
+            greet = 'GOOD AFTERNOON '+name;
         else if (hrs >= 17 && hrs <= 24)
-            greet = 'Good Evening  '+name;
+            greet = 'GOOD EVENING  '+name;
         document.getElementById('greet').innerHTML = greet;
 
     }
@@ -168,5 +166,6 @@ function dispalyGreetings(today){
 
 </script>
 
-</body>
-</html>
+
+
+</body></html>
